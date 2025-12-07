@@ -1,0 +1,109 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+.nuxt/
+.output/
+*.tsbuildinfo
+
+# Bun
+bun.lockb
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+data/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Docker
+docker-compose.override.yml
+
+# Secrets and credentials
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+
+# Uploads and user data
+uploads/
+public/uploads/
+
+# Package manager locks (keep bun.lockb for Bun projects, but ignore during init)
+# Uncomment the one you're NOT using:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Drizzle
+drizzle/meta/
+
+# Coolify
+.coolify/
+
+# Audio files from TTS
+.claude/audio/
+
+# Playwright
+playwright-report/
+playwright/.cache/
+
+# Debug
+.debug/
+
+# BMM workflow artifacts (keep docs, ignore temp)
+docs/sprint-artifacts/
