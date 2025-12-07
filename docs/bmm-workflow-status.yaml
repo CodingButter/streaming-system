@@ -65,7 +65,7 @@ phase_2_solutioning:
     command: validate-architecture
 
   implementation-readiness:
-    status: required
+    status: docs/implementation-readiness-report-2025-12-07.md
     agent: architect
     command: implementation-readiness
 
