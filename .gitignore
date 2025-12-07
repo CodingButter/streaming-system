@@ -95,8 +95,11 @@ drizzle/meta/
 # Coolify
 .coolify/
 
-# Audio files from TTS
+# Claude Code - temporary/local files only
 .claude/audio/
+.claude/settings.local.json
+.claude/*.tmp
+.claude/*.cache
 
 # Playwright
 playwright-report/
