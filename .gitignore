@@ -112,5 +112,5 @@ playwright/.cache/
 # Debug
 .debug/
 
-# BMM workflow artifacts (keep docs, ignore temp)
-docs/sprint-artifacts/
+# BMM workflow artifacts - temp files only
+docs/sprint-artifacts/*.tmp

@@ -1,0 +1,117 @@
+# generated: 2025-12-07
+# project: StreamVibes
+# project_key: streamvibes
+# tracking_system: file-system
+# story_location: docs/sprint-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic exists in epic file but not contexted
+#   - contexted: Epic tech context created (required before drafting stories)
+#   - in-progress: Epic actively being worked on
+#   - done: Epic completed
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - drafted: Story file created in stories folder by *create-story
+#   - ready-for-dev: Draft approved and story context created by *story-ready
+#   - in-progress: Developer actively working on implementation by *dev-story
+#   - review: Implementation complete, ready for review by *code-review
+#   - done: Story completed by *story-done
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - completed: Retrospective has been done by *retrospective
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epics should be marked `in-progress` before stories can be marked beyond `backlog`
+# - SM typically drafts next story ONLY after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', dev reviews, then Dev moves to 'done'
+
+generated: 2025-12-07
+project: StreamVibes
+project_key: streamvibes
+tracking_system: file-system
+story_location: docs/sprint-artifacts
+
+development_status:
+  # Epic 1: Foundation & Project Setup
+  epic-1: backlog
+  1-1-initialize-bun-workspace-monorepo: backlog
+  1-2-set-up-local-development-environment: backlog
+  1-3-create-database-schema-package: backlog
+  1-4-create-shared-types-package: backlog
+  1-5-initialize-nextjs-application-shell: backlog
+  1-6-initialize-elysia-websocket-server: backlog
+  epic-1-retrospective: optional
+
+  # Epic 2: Streamer Authentication
+  epic-2: backlog
+  2-1-configure-better-auth-with-drizzle: backlog
+  2-2-implement-kick-oauth-provider: backlog
+  2-3-implement-twitch-oauth-provider: backlog
+  2-4-connect-additional-platform: backlog
+  2-5-disconnect-platform: backlog
+  2-6-auth-middleware-and-session-handling: backlog
+  epic-2-retrospective: optional
+
+  # Epic 3: Dashboard & Navigation
+  epic-3: backlog
+  3-1-dashboard-layout-shell: backlog
+  3-2-dashboard-home-page: backlog
+  3-3-platform-switcher-component: backlog
+  3-4-settings-page-with-connected-platforms: backlog
+  epic-3-retrospective: optional
+
+  # Epic 4: Layout Builder Core
+  epic-4: backlog
+  4-1-layout-api-routes: backlog
+  4-2-layout-editor-page-shell: backlog
+  4-3-grid-canvas-with-drag-and-drop: backlog
+  4-4-widget-picker-modal: backlog
+  4-5-remove-widget-from-layout: backlog
+  4-6-save-layout: backlog
+  4-7-multiple-layouts-and-default-selection: backlog
+  4-8-delete-layout: backlog
+  epic-4-retrospective: optional
+
+  # Epic 5: Widget System
+  epic-5: backlog
+  5-1-widget-api-routes: backlog
+  5-2-chat-widget-component: backlog
+  5-3-events-widget-component: backlog
+  5-4-goals-widget-component: backlog
+  5-5-tips-widget-component: backlog
+  5-6-widget-settings-panel: backlog
+  epic-5-retrospective: optional
+
+  # Epic 6: Theme Customization
+  epic-6: backlog
+  6-1-theme-api-routes: backlog
+  6-2-theme-editor-page: backlog
+  6-3-global-color-scheme-customization: backlog
+  6-4-font-customization: backlog
+  6-5-per-widget-color-overrides: backlog
+  6-6-save-theme-and-export-import: backlog
+  epic-6-retrospective: optional
+
+  # Epic 7: Platform Adapters
+  epic-7: backlog
+  7-1-platform-adapter-base-architecture: backlog
+  7-2-kick-chat-websocket-adapter: backlog
+  7-3-twitch-chat-irc-adapter: backlog
+  7-4-kick-webhooks-for-events: backlog
+  7-5-twitch-eventsub-for-events: backlog
+  7-6-platform-api-clients-for-counts: backlog
+  epic-7-retrospective: optional
+
+  # Epic 8: Live Overlay Rendering
+  epic-8: backlog
+  8-1-public-overlay-url-structure: backlog
+  8-2-overlay-websocket-connection: backlog
+  8-3-overlay-page-rendering: backlog
+  8-4-individual-widget-overlay-urls: backlog
+  8-5-real-time-goal-updates: backlog
+  epic-8-retrospective: optional

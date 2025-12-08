@@ -72,7 +72,7 @@ phase_2_solutioning:
 # Phase 3: Implementation
 phase_3_implementation:
   sprint-planning:
-    status: required
+    status: docs/sprint-artifacts/sprint-status.yaml
     agent: sm
     command: sprint-planning
     note: "Creates sprint plan - subsequent work tracked in sprint-status.yaml"
